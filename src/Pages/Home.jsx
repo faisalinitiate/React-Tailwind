@@ -1,6 +1,7 @@
 import React from 'react'
 import MultiBanner from '../components/MultiBanner.jsx'
 import HeroBanner from '../components/HeroBanner.jsx'
+import ShopItems from '../components/ShopItems.jsx'
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
     <div>
        <HeroBanner/>
         <MultiBanner/>
+        <ShopItems/>
     </div>
   )
 }
